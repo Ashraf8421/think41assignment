@@ -9,8 +9,7 @@ const spreadsheetData = {
     C1: { formula: "=D1+E1", dependsOn: ["D1", "E1"] },
     D1: { formula: "=1", dependsOn: [] },
     E1: { formula: "=2", dependsOn: [] },
-  },
-};
+  }};
 
 
 function getReverseDeps(sheetId) {
