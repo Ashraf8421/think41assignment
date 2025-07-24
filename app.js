@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const spreadsheetRouter = require("./spreadsheet");
+const spreadsheetRouter = require("./data");
 
 app.use(express.json());
 app.use("/spreadsheet", spreadsheetRouter);
